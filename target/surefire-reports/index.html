@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-StockSuite">
+              <span class="suite-name border-passed">StockSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-StockSuite">
+                    <span>C:\Users\Mathuravani E\eclipse-workspace\Datadrivenframework\src\test\resources\Stocksuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-StockSuite">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-StockSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-StockSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-StockSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-StockSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-StockSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-StockSuite" class="hide-methods passed suite-StockSuite"> (hide)</a> <!-- hide-methods passed suite-StockSuite -->
+                      <a href="#" panel-name="suite-StockSuite" class="show-methods passed suite-StockSuite"> (show)</a> <!-- show-methods passed suite-StockSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-StockSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StockSuite" title="testcase.Stockmanagement" hash-for-method="modifystock(org.testng.TestRunner@55826875, Sell)">modifystock(org.testng.TestRunner@55826875, Sell)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StockSuite" title="testcase.Stockmanagement" hash-for-method="verifyquantity(org.testng.TestRunner@55826875, Sell)">verifyquantity(org.testng.TestRunner@55826875, Sell)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StockSuite" title="testcase.Stockmanagement" hash-for-method="verifytransactionhistory(Sell, org.testng.TestRunner@55826875)">verifytransactionhistory(Sell, org.testng.TestRunner@55826875)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-StockSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-StockSuite" class="panel StockSuite">
+          <div class="suite-StockSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase.Stockmanagement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifystock(org.testng.TestRunner@55826875, Sell)">
+                  </a> <!-- modifystock(org.testng.TestRunner@55826875, Sell) -->
+                  <span class="method-name">modifystock</span>
+                  <span class="parameters">(org.testng.TestRunner@55826875, Sell)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyquantity(org.testng.TestRunner@55826875, Sell)">
+                  </a> <!-- verifyquantity(org.testng.TestRunner@55826875, Sell) -->
+                  <span class="method-name">verifyquantity</span>
+                  <span class="parameters">(org.testng.TestRunner@55826875, Sell)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytransactionhistory(Sell, org.testng.TestRunner@55826875)">
+                  </a> <!-- verifytransactionhistory(Sell, org.testng.TestRunner@55826875) -->
+                  <span class="method-name">verifytransactionhistory</span>
+                  <span class="parameters">(Sell, org.testng.TestRunner@55826875)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StockSuite-class-passed -->
+        </div> <!-- panel StockSuite -->
+        <div panel-name="test-xml-StockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Mathuravani E\eclipse-workspace\Datadrivenframework\src\test\resources\Stocksuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;StockSuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listener.listentotest&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;BuyStockTest&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;Buy&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcase.Stockmanagement&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;modifystock&quot;/&gt;
+          &lt;include name=&quot;verifyquantity&quot;/&gt;
+          &lt;include name=&quot;verifytransactionhistory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase.Stockmanagement --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BuyStockTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;SellStockTest&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;Sell&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcase.Stockmanagement&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;modifystock&quot;/&gt;
+          &lt;include name=&quot;verifyquantity&quot;/&gt;
+          &lt;include name=&quot;verifytransactionhistory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase.Stockmanagement --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SellStockTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;BuyStockTest2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;Buy&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcase.Stockmanagement&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;modifystock&quot;/&gt;
+          &lt;include name=&quot;verifyquantity&quot;/&gt;
+          &lt;include name=&quot;verifytransactionhistory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase.Stockmanagement --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BuyStockTest2 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;SellStockTest2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;Sell&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcase.Stockmanagement&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;modifystock&quot;/&gt;
+          &lt;include name=&quot;verifyquantity&quot;/&gt;
+          &lt;include name=&quot;verifytransactionhistory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase.Stockmanagement --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SellStockTest2 --&gt;
+&lt;/suite&gt; &lt;!-- StockSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-StockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for StockSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BuyStockTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SellStockTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BuyStockTest2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SellStockTest2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-StockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for StockSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-StockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for StockSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_StockSuite');
+function tableData_StockSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'modifystock')
+data.setCell(0, 2, 'testcase.Stockmanagement')
+data.setCell(0, 3, 105387);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyquantity')
+data.setCell(1, 2, 'testcase.Stockmanagement')
+data.setCell(1, 3, 14449);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifytransactionhistory')
+data.setCell(2, 2, 'testcase.Stockmanagement')
+data.setCell(2, 3, 12585);
+window.suiteTableData['StockSuite']= { tableData: data, tableDiv: 'times-div-StockSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-StockSuite">
+              </div> <!-- times-div-StockSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-StockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for StockSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-StockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcase.Stockmanagement</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">addstock</span>
+                <br/>
+                <span class="ignored-method-name">addstock</span>
+                <br/>
+                <span class="ignored-method-name">addstock</span>
+                <br/>
+                <span class="ignored-method-name">addstock</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-StockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase.Stockmanagement</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest(org.testng.TestRunner@60ac6ab5)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest(org.testng.TestRunner@204b4f59)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest(org.testng.TestRunner@55826875)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest(org.testng.TestRunner@1fd9a34f)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(org.testng.TestRunner@60ac6ab5)</span>
+                <span class="method-start">77430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(org.testng.TestRunner@1fd9a34f)</span>
+                <span class="method-start">77430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">modifystock(org.testng.TestRunner@60ac6ab5, Buy)</span>
+                <span class="method-start">77436 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">modifystock(org.testng.TestRunner@1fd9a34f, Sell)</span>
+                <span class="method-start">77436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(org.testng.TestRunner@1fd9a34f)</span>
+                <span class="method-start">108843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyquantity(org.testng.TestRunner@1fd9a34f, Sell)</span>
+                <span class="method-start">108846 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(org.testng.TestRunner@60ac6ab5)</span>
+                <span class="method-start">109651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyquantity(org.testng.TestRunner@60ac6ab5, Buy)</span>
+                <span class="method-start">109652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(org.testng.TestRunner@60ac6ab5)</span>
+                <span class="method-start">121599 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifytransactionhistory(Buy, org.testng.TestRunner@60ac6ab5)</span>
+                <span class="method-start">121599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(org.testng.TestRunner@1fd9a34f)</span>
+                <span class="method-start">124872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifytransactionhistory(Sell, org.testng.TestRunner@1fd9a34f)</span>
+                <span class="method-start">124872 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">flush(org.testng.TestRunner@60ac6ab5)</span>
+                <span class="method-start">136336 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">flush(org.testng.TestRunner@1fd9a34f)</span>
+                <span class="method-start">137461 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(org.testng.TestRunner@55826875)</span>
+                <span class="method-start">204796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">modifystock(org.testng.TestRunner@55826875, Sell)</span>
+                <span class="method-start">204808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(org.testng.TestRunner@204b4f59)</span>
+                <span class="method-start">209254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">modifystock(org.testng.TestRunner@204b4f59, Buy)</span>
+                <span class="method-start">209254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(org.testng.TestRunner@204b4f59)</span>
+                <span class="method-start">238871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyquantity(org.testng.TestRunner@204b4f59, Buy)</span>
+                <span class="method-start">238877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(org.testng.TestRunner@204b4f59)</span>
+                <span class="method-start">252325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifytransactionhistory(Buy, org.testng.TestRunner@204b4f59)</span>
+                <span class="method-start">252326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">flush(org.testng.TestRunner@204b4f59)</span>
+                <span class="method-start">278830 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(org.testng.TestRunner@55826875)</span>
+                <span class="method-start">310225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyquantity(org.testng.TestRunner@55826875, Sell)</span>
+                <span class="method-start">310228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(org.testng.TestRunner@55826875)</span>
+                <span class="method-start">324678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifytransactionhistory(Sell, org.testng.TestRunner@55826875)</span>
+                <span class="method-start">324679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">flush(org.testng.TestRunner@55826875)</span>
+                <span class="method-start">337298 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

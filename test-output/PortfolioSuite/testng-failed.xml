@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PortfolioSuite]">
+  <test thread-count="5" name="Portfoilotest(failed)">
+    <classes>
+      <class name="testcase.portfoliomanagement">
+        <methods>
+          <include name="flush"/>
+          <include name="deleteportfolio"/>
+          <include name="beforemethod"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- testcase.portfoliomanagement -->
+    </classes>
+  </test> <!-- Portfoilotest(failed) -->
+</suite> <!-- Failed suite [PortfolioSuite] -->

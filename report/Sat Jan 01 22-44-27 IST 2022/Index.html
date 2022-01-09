@@ -1,0 +1,910 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>learndatadrivenframework</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Testing</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 1, 2022 10:44:27 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SellStockTest2</p>
+            <p class="text-sm">
+              <span>10:44:28 PM</span> / <span>00:05:36:739</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">SellStockTest2</h5>
+<span class='badge badge-success'>01.01.2022 10:44:28 PM</span>
+<span class='badge badge-danger'>01.01.2022 10:50:04 PM</span>
+<span class='badge badge-default'>00:05:36:739</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:28 PM</td>
+        <td>
+          Starting test-SellStockTest2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:28 PM</td>
+        <td>
+          Logging in
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:28 PM</td>
+        <td>
+          Opening browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:47:03 PM</td>
+        <td>
+          Navigating to urlhttps://money.rediff.com/index.html
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:47:27 PM</td>
+        <td>
+          Clicking on elementsigin_linktext
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:47:34 PM</td>
+        <td>
+          Typing data- kavian95@rediffmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:47:35 PM</td>
+        <td>
+          Typing data- Jones95#
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:47:36 PM</td>
+        <td>
+          Clicking on elementsubmit_id
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:47:52 PM</td>
+        <td>
+          modify stock
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:48:23 PM</td>
+        <td>
+          Clicking on elementbuySellCalendar_id
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:49:37 PM</td>
+        <td>
+          Typing data- 20
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:49:37 PM</td>
+        <td>
+          Typing data- 150
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:49:37 PM</td>
+        <td>
+          Clicking on elementbuySellStockButton_id
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:49:37 PM</td>
+        <td>
+          from listener- Test Successmodifystock
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:49:37 PM</td>
+        <td>
+          verifyquantity
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:49:52 PM</td>
+        <td>
+          Quanity is reflected as expected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:49:52 PM</td>
+        <td>
+          from listener- Test Successverifyquantity
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:49:52 PM</td>
+        <td>
+          verifytransactionhistory
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:50:04 PM</td>
+        <td>
+          Stock price(150) in transaction history matches with stock price(150) entered
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:50:04 PM</td>
+        <td>
+          Stock quantity(-20) in transaction history matches with stock quantity(20) entered
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:50:04 PM</td>
+        <td>
+          Clicking on elementclosebutton_xpath
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:50:04 PM</td>
+        <td>
+          from listener- Test Successverifytransactionhistory
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">BuyStockTest</p>
+            <p class="text-sm">
+              <span>10:44:28 PM</span> / <span>00:02:15:792</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">BuyStockTest</h5>
+<span class='badge badge-success'>01.01.2022 10:44:28 PM</span>
+<span class='badge badge-danger'>01.01.2022 10:46:43 PM</span>
+<span class='badge badge-default'>00:02:15:792</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:28 PM</td>
+        <td>
+          Starting test-BuyStockTest
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:28 PM</td>
+        <td>
+          Logging in
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:28 PM</td>
+        <td>
+          Opening browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:51 PM</td>
+        <td>
+          Navigating to urlhttps://money.rediff.com/index.html
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:45:03 PM</td>
+        <td>
+          Clicking on elementsigin_linktext
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:45:23 PM</td>
+        <td>
+          Typing data- kavian95@rediffmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:45:26 PM</td>
+        <td>
+          Typing data- Jones95#
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:45:27 PM</td>
+        <td>
+          Clicking on elementsubmit_id
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:45:45 PM</td>
+        <td>
+          modify stock
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:46:17 PM</td>
+        <td>
+          from listener-element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HEN8AC4S', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [1f2e955af6b247c0de4a9e0896cb117f, clickElement {id=cd7cabe6-fc17-49da-b7ec-3135e7351675}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MATHUR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WIN10, platformName: WIN10, proxy: Proxy(), se:cdp: ws://192.168.0.110:4444/ses..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on WIN10 (1f2e955af6b247c0de4a9e0896cb117f)] -> xpath: //table[@id='stock']/tbody/tr[3]/td[3]//input]
+Session ID: 1f2e955af6b247c0de4a9e0896cb117f
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:46:17 PM</td>
+        <td>
+          verifyquantity
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:46:29 PM</td>
+        <td>
+          Current quantity in UI is:10, Before quantity is in UI:10,Modified quantity is:0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:46:29 PM</td>
+        <td>
+          Stock added(20) is not reflecting correctly
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:46:29 PM</td>
+        <td>
+          Quanity is reflected as expected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:46:29 PM</td>
+        <td>
+          from listener- Test Successverifyquantity
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:46:29 PM</td>
+        <td>
+          verifytransactionhistory
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:46:43 PM</td>
+        <td>
+          Stock price(150) in transaction history matches with stock price(150) entered
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:46:43 PM</td>
+        <td>
+          Stock quantity(-20) in transaction history doesnot match with stock quantity(20) entered
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:46:43 PM</td>
+        <td>
+          Clicking on elementclosebutton_xpath
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:46:43 PM</td>
+        <td>
+          from listener- Test Successverifytransactionhistory
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">BuyStockTest2</p>
+            <p class="text-sm">
+              <span>10:44:28 PM</span> / <span>00:04:38:276</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">BuyStockTest2</h5>
+<span class='badge badge-success'>01.01.2022 10:44:28 PM</span>
+<span class='badge badge-danger'>01.01.2022 10:49:06 PM</span>
+<span class='badge badge-default'>00:04:38:276</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:28 PM</td>
+        <td>
+          Starting test-BuyStockTest2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:28 PM</td>
+        <td>
+          Logging in
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:28 PM</td>
+        <td>
+          Opening browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:47:03 PM</td>
+        <td>
+          Navigating to urlhttps://money.rediff.com/index.html
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:47:15 PM</td>
+        <td>
+          Clicking on elementsigin_linktext
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:47:39 PM</td>
+        <td>
+          Typing data- kavian95@rediffmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:47:40 PM</td>
+        <td>
+          Typing data- Jones95#
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:47:40 PM</td>
+        <td>
+          Clicking on elementsubmit_id
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:47:56 PM</td>
+        <td>
+          modify stock
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:48:26 PM</td>
+        <td>
+          from listener-element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HEN8AC4S', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [bc21d89e12e0384fcc64af7b5727d995, clickElement {id=24f41c68-7f7b-4c78-be83-1d9952dcbad9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MATHUR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58870}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WIN10, platformName: WIN10, proxy: Proxy(), se:cdp: ws://192.168.0.110:4444/ses..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on WIN10 (bc21d89e12e0384fcc64af7b5727d995)] -> xpath: //table[@id='stock']/tbody/tr[3]/td[3]//input]
+Session ID: bc21d89e12e0384fcc64af7b5727d995
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:48:26 PM</td>
+        <td>
+          verifyquantity
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:48:39 PM</td>
+        <td>
+          Current quantity in UI is:10, Before quantity is in UI:10,Modified quantity is:0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:48:39 PM</td>
+        <td>
+          Stock added(20) is not reflecting correctly
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:48:39 PM</td>
+        <td>
+          Quanity is reflected as expected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:48:39 PM</td>
+        <td>
+          from listener- Test Successverifyquantity
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:48:39 PM</td>
+        <td>
+          verifytransactionhistory
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:49:06 PM</td>
+        <td>
+          from listener-no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='dataTable']/tbody/tr/td[4]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HEN8AC4S', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [bc21d89e12e0384fcc64af7b5727d995, findElement {using=xpath, value=//table[@class='dataTable']/tbody/tr/td[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MATHUR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58870}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WIN10, platformName: WIN10, proxy: Proxy(), se:cdp: ws://192.168.0.110:4444/ses..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc21d89e12e0384fcc64af7b5727d995
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SellStockTest</p>
+            <p class="text-sm">
+              <span>10:44:28 PM</span> / <span>00:02:16:928</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">SellStockTest</h5>
+<span class='badge badge-success'>01.01.2022 10:44:28 PM</span>
+<span class='badge badge-danger'>01.01.2022 10:46:45 PM</span>
+<span class='badge badge-default'>00:02:16:928</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:28 PM</td>
+        <td>
+          Starting test-SellStockTest
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:28 PM</td>
+        <td>
+          Logging in
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:28 PM</td>
+        <td>
+          Opening browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:51 PM</td>
+        <td>
+          Navigating to urlhttps://money.rediff.com/index.html
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:45:09 PM</td>
+        <td>
+          Clicking on elementsigin_linktext
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:45:23 PM</td>
+        <td>
+          Typing data- kavian95@rediffmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:45:26 PM</td>
+        <td>
+          Typing data- Jones95#
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:45:27 PM</td>
+        <td>
+          Clicking on elementsubmit_id
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:45:45 PM</td>
+        <td>
+          modify stock
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:46:16 PM</td>
+        <td>
+          from listener-element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HEN8AC4S', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [fd3138ded76cd240e3a1f9906864aac2, clickElement {id=79c7e250-b7e7-4d73-839a-dab78e7cb5be}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MATHUR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58338}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WIN10, platformName: WIN10, proxy: Proxy(), se:cdp: ws://192.168.0.110:4444/ses..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on WIN10 (fd3138ded76cd240e3a1f9906864aac2)] -> xpath: //table[@id='stock']/tbody/tr[3]/td[3]//input]
+Session ID: fd3138ded76cd240e3a1f9906864aac2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:46:16 PM</td>
+        <td>
+          verifyquantity
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:46:32 PM</td>
+        <td>
+          Current quantity in UI is:10, Before quantity is in UI:10,Modified quantity is:0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:46:32 PM</td>
+        <td>
+          Stock added(20) is not reflecting correctly
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:46:32 PM</td>
+        <td>
+          Quanity is reflected as expected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:46:32 PM</td>
+        <td>
+          from listener- Test Successverifyquantity
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:46:32 PM</td>
+        <td>
+          verifytransactionhistory
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:46:45 PM</td>
+        <td>
+          from listener-element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HEN8AC4S', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [fd3138ded76cd240e3a1f9906864aac2, clickElement {id=f0322078-67ee-4e6a-a8b2-bd6b0f551c28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MATHUR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58338}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WIN10, platformName: WIN10, proxy: Proxy(), se:cdp: ws://192.168.0.110:4444/ses..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on WIN10 (fd3138ded76cd240e3a1f9906864aac2)] -> xpath: //table[@id='stock']/tbody/tr[3]/td[3]//input[3]]
+Session ID: fd3138ded76cd240e3a1f9906864aac2
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 1, 2022 10:44:27 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 1, 2022 10:50:06 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>3</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='25%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='75%'><b>3</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='9%'><b>7</b> events passed</small></div>
+<div>
+<small data-tooltip='11%'><b>9</b> events failed,
+<b data-tooltip='%'>60</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"SellStockTest2":336.739,"BuyStockTest":135.792,"BuyStockTest2":278.276,"SellStockTest":136.928
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 3,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 7,
+failEvents: 9,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 60
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

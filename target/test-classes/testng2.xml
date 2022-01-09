@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteA"> 
+ <listeners> <listener class-name="listener.listentotest" /> </listeners>
+<test name="TestA">
+    <classes>
+     <class name="testcase.Session">	
+      <methods>
+      <include name="login"/>
+      </methods>
+      </class>
+     <class name="testcase.portfoliomanagement">
+      <methods>
+      <include name="createportfolio"/>
+      </methods>
+      </class>
+      <class name="testcase.Stockmanagement">   
+      <methods>
+      <include name="addstock"/>
+      <include name="modifystock"/>
+      <include name="verifybuyprice"/>
+      <include name="verifyquantity"/>
+      <include name="verifytransactionhistory"/>
+      </methods>  
+      </class>
+    </classes>
+ </test> <!-- Test -->
+  </suite> <!-- SuiteA -->

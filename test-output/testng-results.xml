@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="3" total="12" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Stock Suite" duration-ms="255826" started-at="2022-01-08T21:50:22 IST" finished-at="2022-01-08T21:54:38 IST">
+    <groups>
+    </groups>
+    <test name="Buy Existing Stock--0" duration-ms="91110" started-at="2022-01-08T21:50:22 IST" finished-at="2022-01-08T21:51:53 IST">
+      <class name="testcase.Stockmanagement">
+        <test-method status="PASS" signature="beforetest(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@6537cf78]" name="beforetest" is-config="true" duration-ms="36966" started-at="2022-01-08T21:50:22 IST" finished-at="2022-01-08T21:50:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ce9e05a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@6537cf78]" name="beforemethod" is-config="true" duration-ms="1" started-at="2022-01-08T21:50:59 IST" finished-at="2022-01-08T21:50:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ce9e05a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="modifystock(org.testng.ITestContext, java.lang.String)[pri:0, instance:testcase.Stockmanagement@6537cf78]" name="modifystock" duration-ms="27752" started-at="2022-01-08T21:50:59 IST" finished-at="2022-01-08T21:51:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ce9e05a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifystock -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@6537cf78]" name="beforemethod" is-config="true" duration-ms="2" started-at="2022-01-08T21:51:27 IST" finished-at="2022-01-08T21:51:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ce9e05a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="FAIL" signature="verifyquantity(org.testng.ITestContext, java.lang.String)[pri:0, instance:testcase.Stockmanagement@6537cf78]" name="verifyquantity" duration-ms="11648" started-at="2022-01-08T21:51:27 IST" finished-at="2022-01-08T21:51:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ce9e05a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[java.lang.String cannot be cast to java.lang.Integer]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+at testcase.Stockmanagement.verifyquantity(Stockmanagement.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at Runner.Runnerhelper.run(Runnerhelper.java:105)
+at Runner.JSONRunner.main(JSONRunner.java:126)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyquantity -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@6537cf78]" name="beforemethod" is-config="true" duration-ms="1" started-at="2022-01-08T21:51:38 IST" finished-at="2022-01-08T21:51:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ce9e05a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="FAIL" signature="verifytransactionhistory(java.lang.String, org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@6537cf78]" name="verifytransactionhistory" duration-ms="11120" started-at="2022-01-08T21:51:38 IST" finished-at="2022-01-08T21:51:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ce9e05a]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[java.lang.String cannot be cast to java.lang.Integer]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+at testcase.Stockmanagement.verifytransactionhistory(Stockmanagement.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at Runner.Runnerhelper.run(Runnerhelper.java:105)
+at Runner.JSONRunner.main(JSONRunner.java:126)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytransactionhistory -->
+        <test-method status="PASS" signature="flush(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@6537cf78]" name="flush" is-config="true" duration-ms="3454" started-at="2022-01-08T21:51:49 IST" finished-at="2022-01-08T21:51:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ce9e05a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- testcase.Stockmanagement -->
+    </test> <!-- Buy Existing Stock-0 -->
+    <test name="Buy Existing Stock--1" duration-ms="82002" started-at="2022-01-08T21:51:53 IST" finished-at="2022-01-08T21:53:15 IST">
+      <class name="testcase.Stockmanagement">
+        <test-method status="PASS" signature="beforetest(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@7946e1f4]" name="beforetest" is-config="true" duration-ms="33827" started-at="2022-01-08T21:51:53 IST" finished-at="2022-01-08T21:52:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1235151c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="modifystock(org.testng.ITestContext, java.lang.String)[pri:0, instance:testcase.Stockmanagement@7946e1f4]" name="modifystock" duration-ms="23411" started-at="2022-01-08T21:52:27 IST" finished-at="2022-01-08T21:52:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1235151c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifystock -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@7946e1f4]" name="beforemethod" is-config="true" duration-ms="0" started-at="2022-01-08T21:52:27 IST" finished-at="2022-01-08T21:52:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1235151c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@7946e1f4]" name="beforemethod" is-config="true" duration-ms="2" started-at="2022-01-08T21:52:50 IST" finished-at="2022-01-08T21:52:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1235151c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="FAIL" signature="verifyquantity(org.testng.ITestContext, java.lang.String)[pri:0, instance:testcase.Stockmanagement@7946e1f4]" name="verifyquantity" duration-ms="11728" started-at="2022-01-08T21:52:50 IST" finished-at="2022-01-08T21:53:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1235151c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[java.lang.String cannot be cast to java.lang.Integer]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+at testcase.Stockmanagement.verifyquantity(Stockmanagement.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at Runner.Runnerhelper.run(Runnerhelper.java:105)
+at Runner.JSONRunner.main(JSONRunner.java:126)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyquantity -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@7946e1f4]" name="beforemethod" is-config="true" duration-ms="1" started-at="2022-01-08T21:53:02 IST" finished-at="2022-01-08T21:53:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1235151c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="FAIL" signature="verifytransactionhistory(java.lang.String, org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@7946e1f4]" name="verifytransactionhistory" duration-ms="11008" started-at="2022-01-08T21:53:02 IST" finished-at="2022-01-08T21:53:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Buy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1235151c]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[java.lang.String cannot be cast to java.lang.Integer]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+at testcase.Stockmanagement.verifytransactionhistory(Stockmanagement.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at Runner.Runnerhelper.run(Runnerhelper.java:105)
+at Runner.JSONRunner.main(JSONRunner.java:126)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytransactionhistory -->
+        <test-method status="PASS" signature="flush(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@7946e1f4]" name="flush" is-config="true" duration-ms="2018" started-at="2022-01-08T21:53:13 IST" finished-at="2022-01-08T21:53:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1235151c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- testcase.Stockmanagement -->
+    </test> <!-- Buy Existing Stock-1 -->
+    <test name="Sell Existing Stock--0" duration-ms="82402" started-at="2022-01-08T21:53:15 IST" finished-at="2022-01-08T21:54:38 IST">
+      <class name="testcase.Stockmanagement">
+        <test-method status="PASS" signature="beforetest(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@5056dfcb]" name="beforetest" is-config="true" duration-ms="29093" started-at="2022-01-08T21:53:15 IST" finished-at="2022-01-08T21:53:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4af12a63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@5056dfcb]" name="beforemethod" is-config="true" duration-ms="1" started-at="2022-01-08T21:53:44 IST" finished-at="2022-01-08T21:53:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4af12a63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="modifystock(org.testng.ITestContext, java.lang.String)[pri:0, instance:testcase.Stockmanagement@5056dfcb]" name="modifystock" duration-ms="28507" started-at="2022-01-08T21:53:44 IST" finished-at="2022-01-08T21:54:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4af12a63]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sell]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifystock -->
+        <test-method status="FAIL" signature="verifyquantity(org.testng.ITestContext, java.lang.String)[pri:0, instance:testcase.Stockmanagement@5056dfcb]" name="verifyquantity" duration-ms="11702" started-at="2022-01-08T21:54:13 IST" finished-at="2022-01-08T21:54:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4af12a63]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sell]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[java.lang.String cannot be cast to java.lang.Integer]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+at testcase.Stockmanagement.verifyquantity(Stockmanagement.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at Runner.Runnerhelper.run(Runnerhelper.java:105)
+at Runner.JSONRunner.main(JSONRunner.java:126)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyquantity -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@5056dfcb]" name="beforemethod" is-config="true" duration-ms="0" started-at="2022-01-08T21:54:13 IST" finished-at="2022-01-08T21:54:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4af12a63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@5056dfcb]" name="beforemethod" is-config="true" duration-ms="1" started-at="2022-01-08T21:54:24 IST" finished-at="2022-01-08T21:54:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4af12a63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="FAIL" signature="verifytransactionhistory(java.lang.String, org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@5056dfcb]" name="verifytransactionhistory" duration-ms="11087" started-at="2022-01-08T21:54:24 IST" finished-at="2022-01-08T21:54:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sell]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4af12a63]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[java.lang.String cannot be cast to java.lang.Integer]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+at testcase.Stockmanagement.verifytransactionhistory(Stockmanagement.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at Runner.Runnerhelper.run(Runnerhelper.java:105)
+at Runner.JSONRunner.main(JSONRunner.java:126)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytransactionhistory -->
+        <test-method status="PASS" signature="flush(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@5056dfcb]" name="flush" is-config="true" duration-ms="2007" started-at="2022-01-08T21:54:35 IST" finished-at="2022-01-08T21:54:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4af12a63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- testcase.Stockmanagement -->
+    </test> <!-- Sell Existing Stock-0 -->
+  </suite> <!-- Stock Suite -->
+</testng-results>

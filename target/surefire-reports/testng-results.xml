@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="StockSuite" duration-ms="339654" started-at="2022-01-01T22:44:27 IST" finished-at="2022-01-01T22:50:07 IST">
+    <groups>
+    </groups>
+    <test name="SellStockTest2" duration-ms="339654" started-at="2022-01-01T22:44:27 IST" finished-at="2022-01-01T22:50:07 IST">
+      <class name="testcase.Stockmanagement">
+        <test-method status="PASS" signature="beforetest(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@5bc79255]" name="beforetest" is-config="true" duration-ms="204720" started-at="2022-01-01T22:44:27 IST" finished-at="2022-01-01T22:47:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55826875]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@5bc79255]" name="beforemethod" is-config="true" duration-ms="10" started-at="2022-01-01T22:47:52 IST" finished-at="2022-01-01T22:47:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55826875]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="modifystock(org.testng.ITestContext, java.lang.String)[pri:0, instance:testcase.Stockmanagement@5bc79255]" name="modifystock" duration-ms="105387" started-at="2022-01-01T22:47:52 IST" finished-at="2022-01-01T22:49:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55826875]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sell]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifystock -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@5bc79255]" name="beforemethod" is-config="true" duration-ms="3" started-at="2022-01-01T22:49:37 IST" finished-at="2022-01-01T22:49:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55826875]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="verifyquantity(org.testng.ITestContext, java.lang.String)[pri:0, instance:testcase.Stockmanagement@5bc79255]" name="verifyquantity" duration-ms="14449" started-at="2022-01-01T22:49:37 IST" finished-at="2022-01-01T22:49:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55826875]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sell]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyquantity -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@5bc79255]" name="beforemethod" is-config="true" duration-ms="1" started-at="2022-01-01T22:49:52 IST" finished-at="2022-01-01T22:49:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55826875]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="verifytransactionhistory(java.lang.String, org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@5bc79255]" name="verifytransactionhistory" duration-ms="12585" started-at="2022-01-01T22:49:52 IST" finished-at="2022-01-01T22:50:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sell]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@55826875]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytransactionhistory -->
+        <test-method status="PASS" signature="flush(org.testng.ITestContext)[pri:0, instance:testcase.Stockmanagement@5bc79255]" name="flush" is-config="true" duration-ms="2351" started-at="2022-01-01T22:50:04 IST" finished-at="2022-01-01T22:50:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55826875]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- testcase.Stockmanagement -->
+    </test> <!-- SellStockTest2 -->
+  </suite> <!-- StockSuite -->
+</testng-results>

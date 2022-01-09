@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="BookingTest-Apply discount-Instant pay(failed)">
+    <classes>
+      <class name="Clientchangingreq.Paymentmanager">
+        <methods>
+          <include name="applydiscount"/>
+          <include name="makepayment"/>
+        </methods>
+      </class> <!-- Clientchangingreq.Paymentmanager -->
+    </classes>
+  </test> <!-- BookingTest-Apply discount-Instant pay(failed) -->
+</suite> <!-- Failed suite [Suite] -->

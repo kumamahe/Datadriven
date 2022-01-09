@@ -1,0 +1,23 @@
+{
+"browsers":["Chrome","Mozilla"],
+"parallelsuites":"1",
+"testsuites":[
+	{
+	 "runmode":"N",
+	 "name":"PortFolio Suite",
+	 "testdatajsonfile":"data//portfoliodata.json",
+	 "testdataxlsfile":"xls_data//Data.xlsx",
+	 "suitefilename":"Suite//portfoliosuite.json",
+	 "paralleltests":"N"
+	},
+	{
+	 "runmode":"Y",
+	 "name":"Stock Suite",
+	 "testdatajsonfile":"data//stockdata.json",
+	 "testdataxlsfile":"xls_data//Data.xlsx",
+	 "suitefilename":"Suite//stocksuite.json",
+	 "paralleltests":"N"
+	}
+]
+
+}

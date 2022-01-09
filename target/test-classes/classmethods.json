@@ -1,0 +1,14 @@
+{
+    "classdetails":[
+		{
+		 "class":"testcase.portfoliomanagement",
+		 "methods":["createPortfolio","deletePortfolio"]
+		},
+		{
+		 "class":"testcase.Stockmanagement",
+		 "methods":["addstock","modifystock","verifyquantity","verifytransactionhistory"]
+		}
+		
+		
+	]
+}

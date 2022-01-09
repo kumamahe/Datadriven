@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="StockSuite">
+<listeners><listener class-name="listener.listentotest" /></listeners>
+  <!--test name="AddStockTest">
+  <parameter name='action' value='Buy'/>
+    <classes>
+      <class name="testcase.Stockmanagement">
+      <methods>
+      <include name="addstock"/>
+      <include name="verifytransactionhistory"/>
+      </methods>
+      </class>
+    </classes>
+  </test--> <!-- Test -->
+  <test name="BuyStockTest">
+  <parameter name='action' value='Buy'/>
+    <classes>
+      <class name="testcase.Stockmanagement">
+      <methods>
+      <include name="modifystock"/>
+      <include name="verifyquantity"/>
+      <include name="verifytransactionhistory"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+    <test name="SellStockTest">
+  <parameter name='action' value='Sell'/>
+    <classes>
+      <class name="testcase.Stockmanagement">
+      <methods>
+      <include name="modifystock"/>
+      <include name="verifyquantity"/>
+      <include name="verifytransactionhistory"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="BuyStockTest2">
+  <parameter name='action' value='Buy'/>
+    <classes>
+      <class name="testcase.Stockmanagement">
+      <methods>
+      <include name="modifystock"/>
+      <include name="verifyquantity"/>
+      <include name="verifytransactionhistory"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="SellStockTest2">
+  <parameter name='action' value='Sell'/>
+    <classes>
+      <class name="testcase.Stockmanagement">
+      <methods>
+      <include name="modifystock"/>
+      <include name="verifyquantity"/>
+      <include name="verifytransactionhistory"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- StockSuite -->

@@ -1,0 +1,69 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 341.918 s <<< FAILURE! - in TestSuite
+testcase.Stockmanagement.modifystock  Time elapsed: 31.373 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HEN8AC4S', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [fd3138ded76cd240e3a1f9906864aac2, clickElement {id=79c7e250-b7e7-4d73-839a-dab78e7cb5be}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MATHUR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58338}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WIN10, platformName: WIN10, proxy: Proxy(), se:cdp: ws://192.168.0.110:4444/ses..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on WIN10 (fd3138ded76cd240e3a1f9906864aac2)] -> xpath: //table[@id='stock']/tbody/tr[3]/td[3]//input]
+Session ID: fd3138ded76cd240e3a1f9906864aac2
+	at testcase.Stockmanagement.modifystock(Stockmanagement.java:68)
+
+testcase.Stockmanagement.modifystock  Time elapsed: 0.825 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HEN8AC4S', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [1f2e955af6b247c0de4a9e0896cb117f, clickElement {id=cd7cabe6-fc17-49da-b7ec-3135e7351675}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MATHUR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WIN10, platformName: WIN10, proxy: Proxy(), se:cdp: ws://192.168.0.110:4444/ses..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on WIN10 (1f2e955af6b247c0de4a9e0896cb117f)] -> xpath: //table[@id='stock']/tbody/tr[3]/td[3]//input]
+Session ID: 1f2e955af6b247c0de4a9e0896cb117f
+	at testcase.Stockmanagement.modifystock(Stockmanagement.java:68)
+
+testcase.Stockmanagement.verifytransactionhistory  Time elapsed: 12.603 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HEN8AC4S', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [fd3138ded76cd240e3a1f9906864aac2, clickElement {id=f0322078-67ee-4e6a-a8b2-bd6b0f551c28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MATHUR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58338}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WIN10, platformName: WIN10, proxy: Proxy(), se:cdp: ws://192.168.0.110:4444/ses..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on WIN10 (fd3138ded76cd240e3a1f9906864aac2)] -> xpath: //table[@id='stock']/tbody/tr[3]/td[3]//input[3]]
+Session ID: fd3138ded76cd240e3a1f9906864aac2
+	at testcase.Stockmanagement.verifytransactionhistory(Stockmanagement.java:132)
+
+testcase.Stockmanagement.modifystock  Time elapsed: 29.616 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HEN8AC4S', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [bc21d89e12e0384fcc64af7b5727d995, clickElement {id=24f41c68-7f7b-4c78-be83-1d9952dcbad9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MATHUR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58870}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WIN10, platformName: WIN10, proxy: Proxy(), se:cdp: ws://192.168.0.110:4444/ses..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on WIN10 (bc21d89e12e0384fcc64af7b5727d995)] -> xpath: //table[@id='stock']/tbody/tr[3]/td[3]//input]
+Session ID: bc21d89e12e0384fcc64af7b5727d995
+	at testcase.Stockmanagement.modifystock(Stockmanagement.java:68)
+
+testcase.Stockmanagement.verifytransactionhistory  Time elapsed: 26.496 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='dataTable']/tbody/tr/td[4]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HEN8AC4S', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [bc21d89e12e0384fcc64af7b5727d995, findElement {using=xpath, value=//table[@class='dataTable']/tbody/tr/td[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MATHUR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58870}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WIN10, platformName: WIN10, proxy: Proxy(), se:cdp: ws://192.168.0.110:4444/ses..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc21d89e12e0384fcc64af7b5727d995
+	at testcase.Stockmanagement.verifytransactionhistory(Stockmanagement.java:135)
+
